@@ -1,0 +1,309 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+  background-color: #fff;
+  margin:0;
+  padding:0;
+	/*min-width:600px;*/
+  font-family:'Noto Sans KR', sans-serif;
+}
+body *{
+  font-family:'Noto Sans KR', sans-serif;
+}
+a{cursor:pointer;}
+.header{
+	text-align: center;
+}
+.logo_sub{
+  width: 100%;
+  height: 14px;
+  margin: 50px auto 15px;
+  opacity: 0.5;
+}
+.logo_sub img{
+	width: 80px; height: 100%;
+}
+.hbox{
+	position: relative;
+}
+.hbox > *{
+	display: inline-block;
+}
+.hbox .desc_box {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+}
+.desc_box p:first-child{
+  display: none;
+  /*border: 1px solid #000;*/
+}
+.desc_box p:last-child{
+  display: block;
+}
+
+.hbox .what {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+  /*border: 1px solid #000;*/
+}
+
+.hbox .info {
+  right: 13%;
+}
+
+h1 p:first-child{
+  font-size: 48px;
+  color: #00419d;
+  font-weight: bold;
+  line-height: 1.35em;
+}
+h1 p:last-child{
+  margin-top: 12px;
+  font-size: 27px;
+  color: #a1a1a1;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.desc_box p:last-child{
+  display: block;
+  margin-bottom: 60px;
+}
+
+nav {
+	margin: 70px 0;
+}
+nav > a {
+	display: inline-block;
+	width: 46%; max-width: 210px;
+	padding: 20px 0; text-align: center;
+	border: 3px solid #00419d; color: #00419d; text-decoration: none;
+	transition : background-color .2s, color .2s;
+	-webkit-transition : background-color .2s, color .2s;
+	-moz-transition : background-color .2s, color .2s;
+	-o-transition : background-color .2s, color .2s;
+	font-size: 3vw;
+}
+nav > a:hover {background-color: #00419d; color: #fff;}
+nav > a:first-child {margin-right: .5%;}
+nav > a > span {font-size: 18px; font-weight: bold;}
+  .btn{
+   text-align:center;
+    margin: 0 auto 0;
+    padding-top: 46px;
+		padding-bottom: 46px;
+  }
+  .btn a {
+		text-decoration: none;
+		position: relative;
+    background: none;
+    color: #89928f;
+    border:none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Noto Sans KR",sans-serif;
+    margin-left: 85px;
+		padding-bottom: 1px;
+		transition : color .2s;
+		-webkit-transition : color .2s;
+		-moz-transition : color .2s;
+		-o-transition : color .2s;
+  }
+   .btn a:first-child {
+	  margin-left:0
+  }
+	.btn a:first-child:hover {color :#000000;}
+	.btn a:nth-child(2):hover {color:#207f37;}
+  .btn a:nth-child(3):hover {color:#e53f90;}
+  /* 2018Ku */
+  .btn a:nth-child(4):hover {color:#be4abe;}
+  /* 여기까지 지워주시면 됩니다. */
+  .btn a:nth-child(5):hover {color:#426ee7;}
+	.btn a > span.bar {
+		position: absolute;left: 0;right: 0;bottom: 0; font-size: 0;color: transparent;text-indent: -9999px;width: 0%;height: 2px;margin: 0 auto;
+		transition : width .2s;
+		-webkit-transition : width .2s;
+		-moz-transition : width .2s;
+		-o-transition : width .2s;
+	}
+	.btn a:hover > span.bar {width: 100%}
+	.btn a:nth-child(1) > span.bar {background-color: #000000;}
+	.btn a:nth-child(2) > span.bar {background-color: #207f37;}
+  .btn a:nth-child(3) > span.bar {background-color: #e53f90;}
+  /* 2018Ku */
+  .btn a:nth-child(4) > span.bar {background-color: #be4abe;}
+  /* 여기까지 지워주시면 됩니다. */
+  .btn a:nth-child(5) > span.bar {background-color: #426ee7;}
+
+
+	@media (min-width: 768px) and (max-width:1200px) {
+		
+		.hbox .what{
+      text-align: center;
+      width: 100%;
+      display: block;
+      margin-bottom: 5px;
+		}
+		.hbox .info{
+		 right: 6%;
+		}
+
+	}
+	@media (max-width: 860px){
+		.what{
+	    margin: 20px auto 40px !important;
+	    font-size: 12px !important;
+	  }
+	  
+	  nav {
+	    margin: 50px 0;
+	  }
+	  .hbox .desc_box {
+      text-align: center;
+      width: 100%;
+      display: block;
+      margin-bottom: 5px;
+      
+	  }
+	  .hbox .desc_box{
+	    display: block;
+	    position: static;
+	  }
+	  .logo_sub{
+	    margin-bottom: 0;
+	  }
+	  .desc_box p:first-child{
+	    text-align: center;
+	    width: 100%;
+	    display: block;
+	    margin-bottom: 5px;
+	  }
+	  /* .desc_box p:last-child{display: none;} */
+	}
+	
+
+  @media (max-width:767px){
+	.btn a {
+		font-size:17px;
+    /* margin-left: 10%; */
+    /* 2018Ku  메뉴가 기획, 디자인 , 프로그래밍 (영상 제외)라면 위에 주석을 풀고 밑에 주석을 달아주세요 */
+    margin-left: 7%;
+	}
+	.btn{
+    width:100%;
+		line-height: 2em;
+	}
+	.title{
+		line-height: 1.7em;
+	}
+	/*.name {
+		font-size: 20px !important;
+
+  }
+  .job{
+    font-size: 12px !important;
+  }*/
+
+}
+@media (max-width:961px){
+	.name {
+		font-size: 20px !important;
+
+  }
+  .job{
+    font-size: 12px !important;
+  }
+}
+
+  .card{
+    background-color: #ffffff;
+    position: absolute;
+    overflow: hidden;
+
+  }
+
+	.photo, .photo_hover{
+	 	object-fit: cover;
+	}
+  .photo{
+
+  /* 기존사이즈
+    width:175px;
+    height:204px;
+    */
+
+    /*2019min*/
+    width:200px;
+    height:200px;
+    /*여기까지*/
+
+		/*width: 300px;
+		height: 480px;*/
+
+
+    cursor: pointer;
+  }
+  .photo_hover{
+   /* display:none;*/
+	  position:absolute;
+	  top:0;
+    left:0;
+    cursor: pointer;
+    
+    /*2018 기존 사이즈
+    width:175px;
+    height:204px;
+    */
+
+    /*2019min*/
+    width:200px;
+    height:200px;
+    /*여기까지*/
+
+	  opacity: 0;
+    filter:alpha(opacity=0);
+    -moz-opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+
+  }
+  .title{
+    padding-left: 15px;
+    padding-top:10px;
+		line-height: 1.5em;
+  }
+  .name {
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+  .job{
+    font-size: 7px;
+    font-weight: normal;
+    line-height: 14px;
+  }
+  #content{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .g:hover{color:#207f37;}
+  .g{color:#000000;}
+  .g_on{color:#207f37;}
+  .d:hover{color:#e53f90;}
+  .d{color:#000000;}
+  .d_on{color:#e53f90;}
+  .p:hover{color:#426ee7;}
+  .m:hover{color:#922b92;}
+  .p{color:#000000;}
+  
+  
+  footer{font-size:13px;text-align:center;color:#ffffff;padding-top:50px;padding-bottom:85px;font-weight: 100;}
