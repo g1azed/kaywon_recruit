@@ -27,54 +27,51 @@ if (!document.getElementsByClassName) {
 
 /* ======================================= data resort ======================================= */
 /* ===========student date ======= */
+
+
 /* ====name[0],number[1],major[2],class[3] ,[4],url[5],\====*/
-
-
 
 function data_resort() {
   data =
-    "고효정,2a1,기획,A,,needleworkux.wixsite.com/portfolio,\
-   김가은,2a2,기획,A,,uxfinding.wixsite.com/portfolio,\
-   김다영,2a3,기획,A,,uxgizer.wixsite.com/dazero,\
-   김성태,2a4,기획,A,,uxorderme.wixsite.com/portfolio,\
-   김유진,2a5,기획,A,,oneinchyujin.wixsite.com/portfolio,\
-   김지유,2a6,기획,A,,uxcasterjyu.wixsite.com/portfolio,\
-   박규원,2a7,기획,A,,remindux.wixsite.com/portfolio,\
-   박주영,2a8,기획,A,,cocoplanner.wixsite.com/portfolio,\
-   박준영,2a9,기획,A,,doliux.wixsite.com/portfolio,\
-   서이슬,2a10,기획,A,,icanfeelux.wixsite.com/dewseo,\
-   서지은,2a11,기획,A,,reaction4you.wixsite.com/portfolio,\
-   신사인,2a12,기획,A,,seeusain.wixsite.com/portfolio,\
-   이유림,2a13,기획,A,,lovelyuxer.wixsite.com/portfolio,\
-   이호중,2a14,기획,A,,flashuxman.wixsite.com/portfolio,\
-   장해수,2a15,기획,A,,seawaterux.wixsite.com/portfolio,\
-   정운재,2a16,기획,A,,runninguxer.wixsite.com/portfolio,\
-   조민경,2a17,기획,A,,readyuxp1.wixsite.com/potfolio,\
-   한지수,2a18,기획,A,,jiwater099.wixsite.com/portfolio,\
-   황수연,2a19,기획,A,,planbear.wixsite.com/portfolio,\
-   강승희,2d20,디자인,B,,www.behance.net/huisi01,\
-   권태리,2d21,디자인,B,,taerikwon.cargo.site/,\
-   김선경,2d22,디자인,B,,behance.net/kimseonkyung,\
-   유상호,2d23,디자인,B,,gimgirin.cargo.site/,\
-   정예은,2d24,디자인,B,,wnslathsu.wixsite.com/yenportfolio,\
-   김현빈,2d25,디자인,B,,hb112012.wixsite.com/portfolio,\
-   맹세호,2d27,디자인,C,,erer32005.wixsite.com/my-site,\
-   박준영,2d28,디자인,C,,www.juneyoung.net/,\
-   이수희,2d29,디자인,C,,www.behance.net/lggg199995ef,\
-   이아현,2d30,디자인,C,,ahyyeon.wixsite.com/portfolioo,\
-   이준후,2d31,디자인,C,,www.behance.net/joonwari,\
-   정지혜,2d32,디자인,C,,jeongjihye.com,\
-   정찬일,2d33,디자인,C,,chungchanil.cargo.site/Portfolio,\
-   고정연,2d34,디자인,C,,looklikewater.cargo.site,\
-   김인아,2d35,디자인,C,,119dlsdk.wixsite.com/my-site,\
-   신지혜,2d36,디자인,C,,shinjihyeportfolio.wixsite.com/jijiss,\
-   남예지,2d37,디자인,C,,www.behance.net/viviana002e05e,\
-   최유경,2m38,영상,B,,cyk8978.wixsite.com/heychoi,\
-   박민영,2m39,영상,C,,qkralsdud6740.wixsite.com/website-2,\
-   김채영,2p40,프로그래머,D,,chyoung03.com,\
-   박솔,2p41,프로그래머,D,,solpxrk.com/,\
-   배정현,2p42,프로그래머,D,,WWWBAECOM.github.io/Portfolio,\
-   전형욱,2p43,프로그래머,D,,dmdjhu2.dothome.co.kr/";
+  // arr2[j][0], arr2[j][1] 
+  // 이름,img, 기획/디자인/영상/프로그래머 , 반 , 링크
+  "조현근,2a_1,기획,A,,monsterjo.wixsite.com/portpolio, \
+  최해림,2a_2,기획,A,,petitprinceux.wixsite.com/portpolio,\
+  권효정,2a_3,기획,A,,criticaluxer.wixsite.com/portfolio,\
+  안유진,2a_4,기획,A,,orcauj.wixsite.com/portfolio, \
+  이가영,2a_5,기획,A,,jjonggeutux.wixsite.com/portfolio, \
+  서예림,2a_6,기획,A,,wizardofux.wixsite.com/portfolio,\
+  정하빈,2a_7,기획,A,,rumorous.notion.site/1471904b06ad47b2ac8eb5a2d895bc2f, \
+  금보경,2a_8,기획,A,,bokeefolio.notion.site/bokeefolio/Portfolio-4b3c90453e3d4365832d26283183fdd7,\
+  조현정,4s_9,기획,S,,readymag.com/u3149538791/thinkaboutux/,\
+  한명윤,4s_10,기획,S,,mycrometer.com/,\
+  문정미,2b_11,디자인, B,,readymag.com/3995415,\
+  박수빈,2b_12,디자인, B,,readymag.com/3995411,\
+  안소영,2b_13,디자인, B,,readymag.com/u389923978/4003781/,\
+  엄해연,2b_14,디자인, B,,havadeep.com/,\
+  최유정,2b_15,디자인, B,,choiyj1366.wixsite.com/portfolio,\
+  황예진,2b_16,디자인, B,,reyedy.com,\
+  윤채영,2b_17,디자인, B,,readymag.com/u2743076107/chaeyoungYoon/,\
+  나혜린,2b_18,디자인, B,,readymag.com/u2789911802/Universe/,\
+  손민지,2b_19,디자인, B,, readymag.com/u3891798863/4085059/,\
+  우효인,2b_20,디자인, B,, readymag.com/u3605610660/4021071/,\
+  허민,2b_21,디자인, B,, my.readymag.com/edit/4082743/preview/,\
+  유건욱,2c_22,디자인,C,,readymag.com/u3831548193/4078259/ ,\
+  권형준,2c_23,디자인,C,,readymag.com/u3594592219/4020741/ ,\
+  나희수,2c_24,디자인,C,,readymag.com/NICE/3999210/2/ ,\
+  강은서,2c_25,디자인,C,,readymag.com/4002596 ,\
+  박예솔,2c_26,디자인,C,,readymag.com/weng/folio ,\
+  신예린,2c_27,디자인,C,,readymag.com/4003594 ,\
+  최지원,2c_28,디자인,C,,readymag.com/saveone/me/ ,\
+  김보문,2c_29,디자인,C,,readymag.com/u4049427854/munportpolio/ ,\
+  김슬기,4s_30,디자인,S,,readymag.com/Kimseulki/4085057/ ,\
+  최지선,4s_31,디자인,S,,drive.google.com/file/d/1fHsrSQuO3pEThiYlcjb8X4qYxLyhz1Au/view?usp=sharing ,\
+  한효로,4s_32,디자인,S,,readymag.com/u748004113/4085084/ , \
+  박주아,2d_33,프로그래밍,D,,parkjua.github.io/Portfolio/,\
+  홍수지,2d_34,프로그래밍,D,,g1azed.github.io/portfoilo/ ,\
+  백민경,2d_35,프로그래밍,D,,bp2974.github.io/portfolio/ ,\
+  정보영,2d_36,프로그래밍,D,,boyoungg.github.io/portfolio/,\
+  서연주,4s_37,프로그래밍,S,,west-play.github.io/seoyounju/src/index.html ";
 
 
   // "테스트입니다,21245016,테스트,A,,kimgeonwoo.wixsite.com/portfolio,\
@@ -82,8 +79,6 @@ function data_resort() {
   //http:// 를쓰시면 스크립트에서 이미 http://+ arre 로 하는거로 나옵니다 위에 사이트에는 빼고 써주세요
 
   //  임시
-
-
   arr = data.split(",");
   arr2 = new Array();
   for (var i = 0; i < arr.length; i += 6) {
@@ -115,29 +110,30 @@ function draw_stage() {
       case "디자인":
         JobName = "d"
         break;
-      case "프로그래머":
+      case "프로그래밍":
         JobName = "p"
         break;
       //2018Ku 
-      case "영상":
-        JobName = "m"
-        break;
+      // case "영상":
+      //   JobName = "m"
+      //   break;
       //여기까지 지우시면 됩니다
     }
     //draw card html
     var tag = "";
-    tag += "<div class='card " + JobName + "' onclick='mouseclick(\"" + j + "\")' onmouseover='mouseover(\"n" + arr2[j][1] + "\")' onmouseout='mouseout(\"n" + arr2[j][1] + "\")'>";
+    // tag += "<div class='card " + JobName + "' onclick='mouseclick(\"" + j + "\")' onmouseover='mouseover(\"n" + arr2[j][1] + "\")' onmouseout='mouseout(\"n" + arr2[j][1] + "\")'>";
+    tag += "<div class='card " + JobName + "' onclick='mouseclick(\"" + j + "\")'>";
     //tag += "<div class='card "+JobName+"' >";
     tag += "<div class='photo'>";
 
     //*****
     // 이미지파일초기화
-    var photo = "2021img/" + arr2[j][1] + "_1.jpg"
-    var photo2 = "2021img/" + arr2[j][1] + "_2.gif"
+    // var photo = "2021img/" + arr2[j][1] + "_1.jpg"
+  var photo = "2022img/" + arr2[j][1] + ".png"
+    // var photo2 = "2021img/" + arr2[j][1] + "_2.gif"
     // var photo = "img/sample.jpg"
-    // var photo2 = "img/sample2.jpg"
     tag += "<img class='photo' src=" + photo + " />";
-    tag += "<img id='n" + arr2[j][1] + "' class='photo_hover' src=" + photo2 + " />";
+    // tag += "<img id='n" + arr2[j][1] + "' class='photo_hover' src=" + photo2 + " />";
     tag += "</div>";
     tag += "<div class='title'>";
     tag += "<div class='name'>" + arr2[j][0] + "</div>"
@@ -156,7 +152,7 @@ function draw_stage() {
         job = "MOVING IMG" //2020 퍼블리싱/유니티개발 로 변경되었습니다!
         break;
       //여기까지 지우시면 됩니다.
-      case '프로그래머':
+      case '프로그래밍':
         job = "PROGRAMMER"
         break;
       case '테스트':
@@ -172,14 +168,15 @@ function draw_stage() {
   content_div.innerHTML += all_tag;
 }
 draw_stage();
-function mouseover(id_str) {
-  var element = document.getElementById(id_str);
-  TweenMax.to(element, 1, { opacity: 1, ease: Circ.easeOut });
-}
-function mouseout(id_str) {
-  var element = document.getElementById(id_str);
-  TweenMax.to(element, 1, { opacity: 0, ease: Circ.easeOut });
-}
+// function mouseover(id_str) {
+//   var element = document.getElementById(id_str);
+//   TweenMax.to(element, 1, { opacity: 1, ease: Circ.easeOut });
+// }
+// function mouseout(id_str) {
+//   var element = document.getElementById(id_str);
+//   TweenMax.to(element, 1, { opacity: 0, ease: Circ.easeOut });
+// }
+/* ==> 2022사이트는 사진에 마우스오버 기능이 들어가지 않아서 주석처리했습니다 들어가신다면 주석해제해주세요*/
 function mouseclick(id_str) {
   var url = "http://" + arr2[id_str][5];
   window.open(url, '_blank');
@@ -197,7 +194,6 @@ var height = document.body.clientHeight;
 var width = document.body.clientWidth;
 var content_width = width - (content_margin * 2);
 var card_width, card_height
-
 
 var col_num = Math.floor(content_width / (card_width + card_margin * 2));
 var row_num = Math.ceil(card_total / col_num);
@@ -225,10 +221,6 @@ function set_location() {
   card_width = 200;
   card_height = 264;
 
-  /*2018 설정
-  card_width = 175;
-  card_height = 264;
-  */
 
   col_num = Math.floor(content_width / (card_width + card_margin * 2));
   row_num = Math.ceil(card_total / col_num);
@@ -257,36 +249,33 @@ function set_location() {
       set_card_detail("g");
       set_card_detail("d");
       set_card_detail("p");
-      //2018Ku
-      set_card_detail("m");
+      // set_card_detail("m");//2018Ku
       //여기까지 지우시면됩니다.
       break;
     case "d":
       text_color();
       set_card_detail("d");
       set_card_detail("p");
-      //2018Ku
-      set_card_detail("m");
+      // set_card_detail("m");//2018Ku
       //여기까지 지우시면됩니다.
       set_card_detail("g");
       break;
     case "p":
       text_color();
       set_card_detail("p");
-      //2018Ku
-      set_card_detail("m");
+      // set_card_detail("m"); //2018Ku
       //여기까지 지우시면됩니다.
       set_card_detail("g");
       set_card_detail("d");
       break;
-    //2018Ku
-    case "m":
-      text_color();
-      set_card_detail("m");
-      set_card_detail("g");
-      set_card_detail("d");
-      set_card_detail("p");
-      break;
+
+    // case "m":    //2018Ku
+    //   text_color();
+    //   set_card_detail("m");
+    //   set_card_detail("g");
+    //   set_card_detail("d");
+    //   set_card_detail("p");
+    //   break;
     //여기까지 지우시면됩니다.
   }
 }
@@ -358,7 +347,7 @@ var g = document.getElementsByClassName("g");
 var d = document.getElementsByClassName("d");
 var p = document.getElementsByClassName("p");
 //2018Ku
-var m = document.getElementsByClassName("m");
+// var m = document.getElementsByClassName("m");
 //여기까지 지우시면됩니다.
 function set_a() {
   focus_job = "n";
@@ -373,10 +362,10 @@ function set_d() {
   set_location();
 }
 //2018Ku
-function set_m() {
-  focus_job = "m";
-  set_location();
-}
+// function set_m() {
+//   focus_job = "m";
+//   set_location();
+// }
 //여기까지 지우시면됩니다.
 function set_p() {
   focus_job = "p";
