@@ -29,12 +29,10 @@ if (!document.getElementsByClassName) {
 /* ===========student date ======= */
 
 
-/* ====name[0],number[1],major[2],class[3] ,[4],url[5],\====*/
-
 function data_resort() {
   data =
-  // arr2[j][0], arr2[j][1] 
-  // 이름,img, 기획/디자인/영상/프로그래머 , 반 , 링크
+  /* ====name[0],number[1],major[2],class[3] ,[4],url[5],\====*/
+  // 이름,img, 기획/디자인/영상/프로그래밍 , 반 , 링크
   "조현근,2a_1,기획,A,,monsterjo.wixsite.com/portpolio, \
   최해림,2a_2,기획,A,,petitprinceux.wixsite.com/portpolio,\
   권효정,2a_3,기획,A,,criticaluxer.wixsite.com/portfolio,\
@@ -129,8 +127,8 @@ function draw_stage() {
 
     //*****
     // 이미지파일초기화
+    var photo = "2022img/" + arr2[j][1] + ".png"
     // var photo = "2021img/" + arr2[j][1] + "_1.jpg"
-  var photo = "2022img/" + arr2[j][1] + ".png"
     // var photo2 = "2021img/" + arr2[j][1] + "_2.gif"
     // var photo = "img/sample.jpg"
     tag += "<img class='photo' src=" + photo + " />";
