@@ -56,6 +56,7 @@ function data_resort() {
   손민지,2b_19,디자인, B,, readymag.com/u3891798863/4085059/,\
   우효인,2b_20,디자인, B,, readymag.com/u3605610660/4021071/,\
   허민,2b_21,디자인, B,, my.readymag.com/edit/4082743/preview/,\
+  김채연,2b_38,디자인,B,,readymag.com/u1287578522/4073475/ ,\
   유건욱,2c_22,디자인,C,,readymag.com/u3831548193/4078259/ ,\
   권형준,2c_23,디자인,C,,readymag.com/u3594592219/4020741/ ,\
   나희수,2c_24,디자인,C,,readymag.com/NICE/3999210/2/ ,\
@@ -71,7 +72,7 @@ function data_resort() {
   홍수지,2d_34,프로그래밍,D,,g1azed.github.io/portfoilo/ ,\
   백민경,2d_35,프로그래밍,D,,bp2974.github.io/portfolio/ ,\
   정보영,2d_36,프로그래밍,D,,boyoungg.github.io/portfolio/,\
-  서연주,4s_37,프로그래밍,S,,west-play.github.io/seoyounju/src/index.html ";
+  서연주,4s_37,프로그래밍,S,,west-play.github.io/seoyounju/src/index.html  ";
 
 
   // "테스트입니다,21245016,테스트,A,,kimgeonwoo.wixsite.com/portfolio,\
