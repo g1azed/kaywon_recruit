@@ -94,7 +94,6 @@ function data_resort() {
 /* ======================================= data resort ======================================= */
 data_resort();
 
-
 var content_div = document.getElementById("content");
 var JobName = "";
 /* ======================================= draw stage ======================================= */
